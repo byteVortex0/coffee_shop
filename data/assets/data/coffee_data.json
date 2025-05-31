@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Coffe Mocha",
+        "description": "Deep Foam",
+        "price": "$ 3.50",
+        "image": "assets/images/coffee1.png"
+    },
+    {
+        "id": 2,
+        "name": "Coffe Latte",
+        "description": "Flat White",
+        "price": "$ 6.50",
+        "image": "assets/images/coffee2.png"
+    },
+    {
+        "id": 3,
+        "name": "Coffe Cappuccino",
+        "description": "Ice/Hot",
+        "price": "$ 7.50",
+        "image": "assets/images/coffee3.png"
+    },
+    {
+        "id": 4,
+        "name": "Coffe Americano",
+        "description": "Deep",
+        "price": "$ 5.00",
+        "image": "assets/images/coffee4.png"
+    },
+    {
+        "id": 5,
+        "name": "Coffe Espresso",
+        "description": "Deep Foam",
+        "price": "$ 6.00",
+        "image": "assets/images/coffee5.png"
+    },
+    {
+        "id": 6,
+        "name": "Coffe Macchiato",
+        "description": "Deep Foam",
+        "price": "$ 2.50",
+        "image": "assets/images/coffee1.png"
+    },
+    {
+        "id": 7,
+        "name": "Coffe Flat White",
+        "description": "Deep ",
+        "price": "$ 8.50",
+        "image": "assets/images/coffee2.png"
+    },
+    {
+        "id": 8,
+        "name": "Coffe Mocha Frappe",
+        "description": "Deep Foam",
+        "price": "$ 6.50",
+        "image": "assets/images/coffee3.png"
+    },
+    {
+        "id": 9,
+        "name": "Coffe Iced Latte",
+        "description": "Flat White",
+        "price": "$ 3.50",
+        "image": "assets/images/coffee4.png"
+    },
+    {
+        "id": 10,
+        "name": "Coffe Cold Brew",
+        "description": "Flat White",
+        "price": "$ 3.50",
+        "image": "assets/images/coffee5.png"
+    },
+    {
+        "id": 11,
+        "name": "Coffe Nitro Cold Brew",
+        "description": "Flat White",
+        "price": "$ 2.00",
+        "image": "assets/images/coffee1.png"
+    },
+    {
+        "id": 12,
+        "name": "Coffe Affogato",
+        "description": "Deep Foam",
+        "price": "$ 6.00",
+        "image": "assets/images/coffee2.png"
+    }
+]
