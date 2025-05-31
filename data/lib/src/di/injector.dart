@@ -9,5 +9,5 @@ import 'injector.config.dart';
   asExtension: false,
 )
 Future<void> configureDataDependencies(GetIt getIt, String? environment) async {
-  await $initGetIt(getIt, environment: environment);
+  $initGetIt(getIt, environment: environment);
 }

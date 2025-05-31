@@ -12,5 +12,5 @@ Future<void> configureDomainDependencies(
   GetIt getIt,
   String? environment,
 ) async {
-  await $initGetIt(getIt, environment: environment);
+  $initGetIt(getIt, environment: environment);
 }
