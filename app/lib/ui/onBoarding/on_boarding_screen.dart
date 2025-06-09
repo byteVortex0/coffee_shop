@@ -51,6 +51,7 @@ class OnBoardingScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
+                      key: const Key('startedButton'),
                       onPressed: () {
                         context.pushReplacementNamed(AppRoutes.products);
                       },
