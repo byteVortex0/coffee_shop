@@ -15,39 +15,36 @@ class OnBoardingScreen extends StatelessWidget {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          Positioned(
-            top: 0,
-            left: 0,
-            right: 0,
-            child: Assets.images.onboarding.image(
-              width: double.infinity,
-              height: MediaQuery.of(context).size.height / 1.5,
-              fit: BoxFit.cover,
-            ),
+          SizedBox(
+            width: double.infinity,
+            height: MediaQuery.of(context).size.height * 0.65,
+            child: Assets.images.onboarding.image(fit: BoxFit.cover),
           ),
-          Positioned(
-            top: (MediaQuery.of(context).size.height / 1.5) - 30.h,
-            left: 0,
-            right: 0,
+
+          SingleChildScrollView(
             child: Container(
-              padding: EdgeInsets.only(right: 20.w, left: 20.w, bottom: 50.h),
-              alignment: Alignment.bottomCenter,
+              padding: EdgeInsets.symmetric(horizontal: 20.w),
+              margin: EdgeInsets.only(
+                top: MediaQuery.of(context).size.height * 0.60,
+              ),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
                     'Fall in Love with\nCoffee in Blissful\nDelight!',
                     textAlign: TextAlign.center,
                     style: StyleManager.white28Bold,
                   ),
+
                   SizedBox(height: 10.h),
+
                   Text(
                     'Welcome to our cozy coffee corner,\nwhere every cup is a delightful for you.',
                     textAlign: TextAlign.center,
                     style: StyleManager.grey13Regular,
                   ),
+
                   SizedBox(height: 20.h),
+
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
@@ -60,10 +57,7 @@ class OnBoardingScreen extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10.r),
                         ),
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 40.w,
-                          vertical: 12.h,
-                        ),
+                        padding: EdgeInsets.symmetric(vertical: 12.h),
                       ),
                       child: Text(
                         'Get Started',

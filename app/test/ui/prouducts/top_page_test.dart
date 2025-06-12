@@ -18,6 +18,7 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.byType(ProductsScreen), findsOneWidget);
+      expect(find.byType(TextField), findsOneWidget);
       expect(find.text('Location'), findsOneWidget);
     });
   });
